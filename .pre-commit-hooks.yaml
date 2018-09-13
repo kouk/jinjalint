@@ -1,0 +1,7 @@
+-   id: jinjalint
+    name: lint jinja2 templates
+    description: This hook runs jinjalint
+    entry: jinjalint
+    language: python
+    types: [text]
+    files: '.j2$'
